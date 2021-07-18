@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Nunito",sans-serif;
+    background: #d62323;
+  }
+  
+  .input{
+    text-align: center;
+    margin: 100px auto;
+  }
+  
+  input[type="submit"]{
+    padding: 20px 20px;
+    background: #16d826;
+    border: none;
+    border-radius: .5px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 10px;
+  }
+  
+  .input input[type="text"]{
+    width: 600px;
+    height: 52px;
+    padding: 4.2px 8.5px;
+    background: #41c71f;
+    border: none;
+    margin-left: 1.5em;
+    border-radius: .6px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 18px;
+  }
+  
+  .card{
+    width: 50%;
+    background: #155de4;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+  }
+  
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h1{
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .card p{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+  }
+
+p#p2.p2 {
+    margin-top: 3em;
+    margin-left: 39.1em;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h1#header.h1_1 {
+    margin-top: 3em;
+    margin-left: 25em;
+    color:aliceblue;
+}
+
+/* input#inputFarenheit {
+    margin-left: 20em;
+} */
+
+label {
+    margin-left: 29.25em;
+    font-weight: bold;
+    color:rgb(235, 174, 174);
+}
+
+p#_sius.cel {
+    margin-left: 29.25em;
+    font-weight: bold;
+    color: #97b4e9;
+
+}
+.btn:hover
+{
+background-image:none !important;
+background-color:#ff00ff !important;
+}

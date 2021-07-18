@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Anthony api weather</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <h1 class='h1_1' id ='header'>Valentino Weather!</h1>
+                <p class='p2' id='p2'>Place any city name in input below to get weather data!</p>
+            </div>
+            
+            <div class="input">
+                <input type="text" placeholder="Enter the city" class="input_text">
+                <input type="submit" value="Submit" class="submit" onhoverover="color: lightblue"> <!-- get onhover change color to work...-->
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="card">
+                <h1 class="name" id="name"></h1>
+                <p class="temperature"></p>
+                <p class="clouds"></p>
+                <p class="description"></p>
+            </div>
+        </div>
+
+        <p>
+            <label>Fahrenheit</label>
+            <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+          </p>
+          <p class='cel' id='_sius'>Celcius: <span id="outputCelcius"></span></p>
+          
+          <script>
+          function temperatureConverter(valNum) {
+            valNum = parseFloat(valNum);
+            document.getElementById("outputCelcius").innerHTML=(valNum-32)/1.8;
+          }
+          </script>
+        <script src="main.js"></script>
+    </body>
+    </html>
